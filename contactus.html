@@ -20,6 +20,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 		<link rel="icon" type="image/gif/png" href="assets/images/proctor.png">
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 		<!-- jquery first then popper and bootstrap -->
@@ -56,46 +57,40 @@
 		</nav>
 
 
-		<div class="bg-container">
-			<div class="pad row">
-				<!-- first col -->
-				<div class="message col-lg-6 col-md-6 col-sm-12">
-
-					<!-- for the contact form -->
-					<form class="form-horizontal">
-						<legend> Contact Us </legend>
+		<div class="map-wrapper">
+			<div class="container-ok">
+				<div class="row">
+					<div class="col-lg-1"></div>
+				    <div class="col-lg-5 col-md-12 col-sm-12">
+					<form>
 						<div class="form-group">
-							<label class="col-lg-4" for="fullname"></label>
-							<input id="fullname" name="fullname" placeholder="Full Name" class="form-control" type="text">
+						    <h4 id="contactme">Contact Us</h4>
+						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 						</div>
 						<div class="form-group">
-							<label class="col-lg-4" for="email"></label>
-							<input id="email" name="email" placeholder="Email" class="form-control" type="email">
+						    <label for="exampleInputPassword1"></label>
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 						</div>
 						<div class="form-group">
-							<label class="col-lg-4" for="message"></label>
-							<textarea class="form-control" id="message" name="message" placeholder="Type your message here"></textarea>
+						    <label for="exampleFormControlTextarea1"></label>
+						    <textarea class="form-control mb-2" id="exampleFormControlTextarea1" placeholder="write message" rows="3" ></textarea>
+						    <a id="send" href="#">send message</a>
 						</div>
-						<div class="form-group">
-							<div class="col-lg-4">
-								<button id="submit" name="submit">Send Message</button>
-							</div>
-						</div>
-					</form>
-					<!-- end of the content form -->
-
+					</form>    	
+				    </div>
+				    <div class="col-lg-5 col-md-12 col-sm-12">
+					    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15440.428299511772!2d121.05106223514265!3d14.64986281089541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b711cf08e229%3A0x8d531cb76f57f410!2sCircle+of+Fun!5e0!3m2!1sen!2sph!4v1538064396597" frameborder="0" style="border:0" allowfullscreen></iframe>	
+					    <small class="this"><i class="fas fa-map-marker-alt"></i> Diliman, Quezon City, Metro Manila</small>
+					    <small class="this"><i class="fas fa-phone"></i> 0917 842 0480</small>
+				    </div>
+				    <div class="col-lg-1"></div>
 				</div>
-				<!-- 2nd col -->
-				<div class="map col-lg-6 col-md-6 col-sm-12">
-					<!-- for the google map -->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101515.45553041228!2d-121.90250634614655!3d37.33403271355366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fccbb439ea46b%3A0x78be976b86728add!2sSilicon+Valley+Capital+Club!5e0!3m2!1sen!2sph!4v1537632008229"  frameborder="0" style="border:0" allowfullscreen></iframe>
-
-				<p><i class="fas fa-map-marker-alt"></i> 50 W San Fernando St, San Jose, CA 95113, USA</p>
-				<p><i class="fas fa-phone"></i> +1 408-971-9300 </p>
-				</div>				
-			</div>
-			<!-- end of row -->
+			</div>			
 		</div>
+
+		<div class="dream">
+		</div>
+
 
 
 		<div class="social-media">
