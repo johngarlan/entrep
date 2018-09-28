@@ -84,7 +84,7 @@ a.navbar-brand{
 .index-bg{
 	height: 100vh;
 	width: 100%;
-	background: url(../images/background.jpg);
+	background: url(../images/dream.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -107,12 +107,16 @@ a.navbar-brand{
 		font: 500 40px 'Cinzel','Quicksand', serif, sans-serif ;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9)
 		margin-bottom: 20px;
+		/*text-shadow: 1px 1px 1px #000; */
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 .box a{
 	text-decoration: none;
 	color: #fff;
 }
+
 
 .bts{
 	background: linear-gradient(135deg, rgba(239,131,77,1) 0%, rgba(239,131,77,0.98) 5%, rgba(240,163,9,0.83) 53%, rgba(240,86,15,0.78) 69%, rgba(189,80,7,0.68) 100%);
@@ -126,7 +130,7 @@ a.navbar-brand{
 
 
 .bts:hover{
-	box-shadow: 0px 4px 4px rgba(46, 245, 44, 1);
+	font-weight: bolder;
 }
 /*END OF INDEX STYLE*/
 
@@ -303,6 +307,8 @@ a.navbar-brand{
 .about-entre h3{
 	border-bottom: 1px solid #fff;
 	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bolder;
 }
 
 
@@ -326,6 +332,8 @@ a.navbar-brand{
 .mission h3{
 	border-bottom: 1px solid #fff;
 	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bolder;
 }
 
 .mission p{
@@ -350,6 +358,8 @@ a.navbar-brand{
 .vission h3{
 	border-bottom: 1px solid #fff;
 	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bolder;
 }
 
 .vission p{
@@ -526,6 +536,10 @@ iframe{
 	padding: 2px;
 	margin-right: 20px;
 }
+
+.icons:hover{
+	background: #FFF; 
+}
 /*END OF SOCIAL MEDIA ICON*/
 
 
@@ -578,9 +592,9 @@ iframe{
 /*contactus style part2*/
 
 .map-wrapper{
-	height: 61vh;
+	height: 66vh;
 	width: 100%;
-	background: orange;
+	background: #232323;
 	padding-top: 67px;
 }
 
